@@ -4,8 +4,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        bluecharcoal: '#0b0d17',
-        tropicalblue: '#d0d6f9'
+        'blue-charcoal': '#0b0d17',
+        'tropical-blue': '#d0d6f9'
+      },
+      fontFamily: {
+        'barlow': ['Barlow Condensed', 'sans-serif'],
+        'bellefair': ['Bellefair', 'serif']
       }
     },
   },
