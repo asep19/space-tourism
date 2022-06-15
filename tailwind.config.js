@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        bluecharcoal: 'hsl(230,35,7)',
-        tropicalblue: 'hsl(231,77,90)'
+        bluecharcoal: '#0b0d17',
+        tropicalblue: '#d0d6f9'
       }
     },
   },
