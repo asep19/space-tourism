@@ -1,3 +1,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: Barlow;
+  src: url('../assets/fonts/Barlow-Regular.ttf')
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('../assets/fonts/BarlowCondensed-Regular.ttf');
+}
+
+@font-face {
+  font-family: Bellefair;
+  src: url('../assets/fonts/Bellefair-Regular.ttf');
+}
+
+@layer base {
+
+  body {
+    font-family: Barlow;
+    font-size: 15px;
+    @apply text-tropical-blue;
+  } 
+
+  h1 {
+    font-family: Bellefair;
+  }
+
+}
+
+.bg-home {
+  /* height: 755px; */
+  background-image: url('../assets/img/home/background-home-mobile.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 768px) {
+  .bg-home {
+    background-image: url('../assets/img/home/background-home-tablet.jpg');
+  }
+}
+
+@media (min-width: 1024px){
+  .bg-home {
+    height: 100vh;
+    background-image: url('../assets/img/home/background-home-desktop.jpg');
+  }
+}

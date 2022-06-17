@@ -8,8 +8,9 @@ module.exports = {
         'tropical-blue': '#d0d6f9'
       },
       fontFamily: {
-        'barlow': ['Barlow Condensed', 'sans-serif'],
-        'bellefair': ['Bellefair', 'serif']
+        'barlow': 'Barlow',
+        'barlow-condensed': 'Barlow Condensed',
+        'bellefair': 'Bellefair'
       }
     },
   },
