@@ -32,21 +32,34 @@
 }
 
 .bg-home {
-  /* height: 755px; */
+  height: 100%; 
   background-image: url('../assets/img/home/background-home-mobile.jpg');
   background-size: cover;
   background-position: center;
 }
 
-@media (min-width: 768px) {
+.bg-destination {
+  background-image: url('../assets/img/destination/background-destination-mobile.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 768px) { 
   .bg-home {
     background-image: url('../assets/img/home/background-home-tablet.jpg');
   }
+
+  .bg-destination {
+    background-image: url('../assets/img/destination/background-destination-tablet.jpg');
+  } 
 }
 
 @media (min-width: 1024px){
-  .bg-home {
-    height: 100vh;
+  .bg-home { 
     background-image: url('../assets/img/home/background-home-desktop.jpg');
   }
+
+  .bg-destination {
+    background-image: url('../assets/img/destination/background-destination-desktop.jpg');
+  } 
 }
